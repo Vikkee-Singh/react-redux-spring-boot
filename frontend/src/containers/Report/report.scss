@@ -1,0 +1,11 @@
+.report-filter-section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    .filterButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

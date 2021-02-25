@@ -1,0 +1,35 @@
+.memLisrtTitle, .memLisrtfilter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .memListButton{
+        position: relative;
+        padding: 6px;
+        width: 60px;
+        height: 30px;
+        margin-right: 10px !important;
+        border-radius: 15px !important;
+        box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2), 0 13px 24px -11px rgba(233,30,99,0.6) !important;
+    }
+}
+
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.SearchBox {
+    display: flex;
+    font-size: 14px;
+
+    input {
+        border-color: #ffffff;
+        border-bottom-color: black;
+        margin-left: .5em;
+        display: inline-block;
+        width: auto;
+        padding: .375rem 0rem;
+    }
+}

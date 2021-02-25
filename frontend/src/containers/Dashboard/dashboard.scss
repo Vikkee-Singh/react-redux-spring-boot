@@ -1,0 +1,113 @@
+.dashboardDetails {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    .recordBox {
+        position: relative;
+        margin: 20px;
+        width: 80vh;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        padding: 15px;
+        color: #212529;
+        border-radius: 10px;
+        min-height: 140px;
+        background: white;
+
+        div {
+            font-size: 17px;
+        }
+
+        .number {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.memberList {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    margin: 15px;
+    flex-direction: column;
+    width: 115vh;
+    .header {
+        color: #555;
+        padding: 15px;
+
+        strong {
+            color: #353c48 !important;
+        }
+    }
+
+    table {
+        font-size: 13px;
+        color: #555;
+        padding: 0 15px 0 15px;
+
+        thead,
+        tbody {
+            padding: 15px;
+        }
+    }
+}
+
+.report{
+    width: 60vh;
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .recordBox {
+        position: relative;
+        margin: 20px;
+        // width: 70vh;
+        // text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        padding: 15px;
+        color: #212529;
+        border-radius: 10px;
+        min-height: 140px;
+        background: white;
+
+        div {
+            font-size: 17px;
+        }
+        .repotListheader, .repotListvalue{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .dashboardDetails {
+        display: -webkit-box;
+    }
+
+    .recordBox {
+        width: 110px !important;
+    }
+
+    .memberList {
+        position: absolute;
+        width: 60vw;
+    }
+}
+
+.custom-icon{
+    height: 100% !important;
+    width: 100% !important;
+}
+.barChart g rect, text[stroke="none"][stroke-width="0"][fill="#444444"], path[d="M217,43L237,43"] {
+    display: none;
+}
+
+.columnChart g rect[x="267"][y="16"][width="18"][height="9"], rect[x="221"][y="16"][width="25"][height="9"][fill='#ffffff'], rect[width="222"][height="1"] {
+    display: none;
+}
